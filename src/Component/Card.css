@@ -1,0 +1,39 @@
+:root{
+    --card-text-color: white;
+}
+.Card-Container{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    width: 10rem;
+    background-color: black;
+}
+.Card-Container::after {
+    content: '';
+    border-bottom: 20px solid white;
+    border-left: 20px solid black;
+    margin-top: 3.5rem;
+    margin-left: 8.75rem;
+}
+.Card-name{
+    color: var(--card-text-color);
+    font-size: 12px;
+    margin-left: 1rem;
+    font-weight: 500;
+}
+/* .card-image{
+    height: inherit;
+} */
+.card-image img{
+    height: 12.5rem;
+    width: 10rem;
+}
+.card-divider{
+    /* position:relative; */
+    margin-top: -0.2rem;
+    width: inherit;
+    height: 0.2rem;
+    background-color: red;
+}
