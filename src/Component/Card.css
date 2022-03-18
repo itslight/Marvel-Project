@@ -2,6 +2,7 @@
     --card-text-color: white;
 }
 .Card-Container{
+    position: relative;
     margin-left: 1rem;
     margin-top: 1rem;
     display: flex;
@@ -14,10 +15,12 @@
     content: '';
     border-bottom: 20px solid white;
     border-left: 20px solid black;
-    margin-top: 3.5rem;
+    margin-top: 6rem;
     margin-left: 8.75rem;
 }
 .Card-name{
+    position: absolute;
+    
     color: var(--card-text-color);
     font-size: 12px;
     margin-left: 1rem;

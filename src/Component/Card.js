@@ -5,7 +5,9 @@ export default function Card(props) {
     let url = props.img_link.path;
     let ext = props.img_link.extension;
     let img_url = url+"."+ext;
-    console.log(img_url);
+    // let comic = props.comic;
+    // console.log(img_url);
+
   return (
     <div className='Card-Container'>
         <div className='card-image'>
@@ -17,7 +19,6 @@ export default function Card(props) {
                 <p>{props.hName}</p>
             </div>
             <div className='Card-desc'>
-
             </div>
         </div>
 
