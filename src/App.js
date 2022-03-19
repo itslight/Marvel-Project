@@ -3,7 +3,7 @@ import AmpSearchBar from './Component/Amp-SearchBar';
 import SearchBar from './Component/SearchBar';
 
 function App() {
-  const speed = 40;
+  const speed = 100;
   if(speed>=60){
     return(
       <div className="App">
