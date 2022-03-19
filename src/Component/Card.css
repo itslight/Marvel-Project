@@ -19,8 +19,7 @@
     margin-left: 8.75rem;
 }
 .Card-name{
-    position: absolute;
-    
+    position: absolute; 
     color: var(--card-text-color);
     font-size: 12px;
     margin-left: 1rem;
