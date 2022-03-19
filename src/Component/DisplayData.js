@@ -24,7 +24,7 @@ export default function DisplayData({speed}) {
     }
     else{
       const {data:{results}} = list;
-      if(speed>=60){
+      if(speed>=15){
         return (
           <div className='sheet'>
            {

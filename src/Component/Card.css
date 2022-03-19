@@ -18,6 +18,23 @@
     margin-top: 6rem;
     margin-left: 8.75rem;
 }
+.Card-Container-amp{
+    position: relative;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    width: 10rem;
+    background-color: black;
+}
+.Card-Container-amp::after {
+    content: '';
+    border-bottom: 20px solid white;
+    border-left: 20px solid black;
+    margin-top: 6.25rem;
+    margin-left: 8.75rem;
+}
 .Card-name{
     position: absolute; 
     color: var(--card-text-color);
@@ -34,6 +51,13 @@
 }
 .card-divider{
     /* position:relative; */
+    margin-top: -0.2rem;
+    width: inherit;
+    height: 0.2rem;
+    background-color: red;
+}
+.card-divider-amp{
+    position:relative;
     margin-top: -0.2rem;
     width: inherit;
     height: 0.2rem;
